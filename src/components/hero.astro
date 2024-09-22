@@ -1,0 +1,31 @@
+---
+import { Picture } from "astro:assets";
+import heroImage from "assets/hero.png";
+import Link from "@components/ui/link.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<main
+  class="grid items-center justify-center pt-16 pb-8 md:pt-12 md:pb-24 h-screen">
+  <div class="items-center justify-center">
+    <h1
+      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter text-center">
+      AI powered CPG Analytics
+    </h1>
+    <p class="text-lg mt-4 text-slate-600  text-center">
+      Pluto helps CPG brands gain a 360-degree view of how their products are performing in retail.
+    </p>
+    <div class="mt-6 flex flex-col gap-3 items-center">
+      <Link
+        href="#"
+        href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
+        target="_blank"
+        class="flex gap-1 items-center justify-center"
+        rel="noopener">
+
+
+         Join the waitlist
+      </Link>
+    </div>
+  </div>
+</main>
